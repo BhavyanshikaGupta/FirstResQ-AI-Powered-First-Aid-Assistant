@@ -107,3 +107,5 @@ This project is for educational and research purposes.
 <img width="1802" height="986" alt="image" src="https://github.com/user-attachments/assets/b689f469-cc91-42d8-8e0d-5eb909f04325" />
 
 
+### Hardware Setup
+<img width="572" height="753" alt="image" src="https://github.com/user-attachments/assets/be8c50dc-c6d3-49a2-9100-0d4ba643ff8a" />
