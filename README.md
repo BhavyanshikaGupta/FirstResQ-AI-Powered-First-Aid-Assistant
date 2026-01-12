@@ -100,8 +100,10 @@ This project is for educational and research purposes.
 ## Screenshots
 
 ### Home Page
-<img width="1915" height="1018" alt="image" src="https://github.com/user-attachments/assets/4b854e75-2312-4baf-bf17-19e93f92e98d" />
+<img width="1804" height="959" alt="image" src="https://github.com/user-attachments/assets/0dd1ab1e-7d50-4da3-8869-73b41d057bfa" />
+
 
 ### Chat Interface
-<img width="1915" height="1018" alt="image" src="https://github.com/user-attachments/assets/fcc46789-a55b-44a4-bd04-a2074597f500" />
+<img width="1802" height="986" alt="image" src="https://github.com/user-attachments/assets/b689f469-cc91-42d8-8e0d-5eb909f04325" />
+
 
