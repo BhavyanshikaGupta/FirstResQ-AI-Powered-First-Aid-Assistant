@@ -87,6 +87,80 @@ Cosine similarity is computed against a curated first-aid dataset
 
 The most relevant first-aid response is returned in real time
 
+## 🔊 Raspberry Pi Voice Assistant Device
+
+FirstResQ also supports a standalone Raspberry Pi–based voice assistant device, enabling hands-free first aid guidance without requiring a browser or smartphone.
+
+The device captures user speech via a microphone, sends the transcribed text to the Flask backend over HTTP, and outputs the AI-generated first aid response through a speaker and on-screen display.
+
+### 🧠 Device Capabilities
+
+Voice-based symptom input using microphone
+
+Real-time speech-to-text processing
+
+Server-based AI inference (lightweight edge device)
+
+Text & audio response output
+
+Works on local network with Flask server
+
+### 🧰 Hardware Requirements
+
+Raspberry Pi (Pi 3 / Pi 4 recommended)
+
+USB Microphone
+
+Speaker or Headphones
+
+Display (optional, for text output)
+
+Raspberry Pi OS
+
+### 🛠️ Device Software Stack
+
+Python 3
+
+SpeechRecognition
+
+Requests
+
+Pygame
+
+Google Speech API (via SpeechRecognition)
+
+### 📡 Device–Server Communication Flow
+
+User speaks a symptom into the microphone
+
+Raspberry Pi converts speech → text
+
+Text is sent to Flask /chat/<session_id> API
+
+Backend processes input using SBERT similarity search
+
+First aid response is returned
+
+Raspberry Pi displays and speaks the response
+
+### ▶️ Raspberry Pi Setup & Execution
+
+```bash
+sudo apt update
+sudo apt install python3-pip portaudio19-dev
+pip3 install SpeechRecognition requests pygame pyaudio
+```
+
+Update the server IP address in the script:
+
+```bash
+SERVER_URL = "http://<FLASK_SERVER_IP>:5000/chat/1"
+```
+
+Run the device client:
+
+python3 raspcode.py
+
 ## 👥 Contributors
 
 Vanshika Chauhan        https://www.linkedin.com/in/vanshika-chauhan-049574297/
