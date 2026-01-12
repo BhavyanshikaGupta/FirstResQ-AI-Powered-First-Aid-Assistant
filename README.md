@@ -108,4 +108,5 @@ This project is for educational and research purposes.
 
 
 ### Hardware Setup
-<img width="572" height="753" alt="image" src="https://github.com/user-attachments/assets/be8c50dc-c6d3-49a2-9100-0d4ba643ff8a" />
+<img width="572" height="753" alt="image" src="https://github.com/user-attachments/assets/188af82c-0cae-4687-aee2-8d035fe8ceca" />
+
