@@ -149,6 +149,9 @@ Vanshika Chauhan        https://www.linkedin.com/in/vanshika-chauhan-049574297/
 
 Bhavyanshika Gupta      https://www.linkedin.com/in/bhavyanshika-gupta-8888bb284/
 
+Piyush Thakur           https://www.linkedin.com/in/piyush-thakur-xlr
+
+
 ## 📄 License
 
 This project is for educational and research purposes.
